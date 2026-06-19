@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="800" height="160">
+  <defs>
+    <linearGradient id="bgTech" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a23">
+        <animate attributeName="stop-color" values="#0a0a23;#1a1a3e;#0f0f2e;#0a0a23" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#1a1a3e">
+        <animate attributeName="stop-color" values="#1a1a3e;#0f0f2e;#0a0a23;#1a1a3e" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="techGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="160" rx="16" ry="16" fill="url(#bgTech)" stroke="#2a2a5e" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="400" y="28" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8888cc" letter-spacing="6" font-weight="600">
+    TECHNICAL SKILLS
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- ====== SECTION: FRONTEND ====== -->
+  <text x="20" y="48" font-family="'Segoe UI', Arial, sans-serif" font-size="8" fill="#00d2ff" font-weight="600" opacity="0.8" letter-spacing="2">FRONTEND</text>
+
+  <!-- HTML5 -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-4;0,0" dur="3.1s" repeatCount="indefinite"/>
+    <rect x="18" y="55" width="52" height="52" rx="8" fill="none" stroke="#E34C26" stroke-width="1.5" opacity="0.8"/>
+    <text x="44" y="80" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#E34C26" font-weight="bold">H5</text>
+    <text x="44" y="96" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="6" fill="#E34C26" opacity="0.7">HTML5</text>
+  </g>
+
+  <!-- CSS3 -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="2.7s" repeatCount="indefinite"/>
+    <rect x="80" y="55" width="52" height="52" rx="8" fill="none" stroke="#1572B6" stroke-width="1.5" opacity="0.8"/>
+    <text x="106" y="80" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#1572B6" font-weight="bold">C3</text>
+    <text x="106" y="96" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="6" fill="#1572B6" opacity="0.7">CSS3</text>
+  </g>
+
+  <!-- JavaScript -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-5;0,0" dur="3.5s" repeatCount="indefinite"/>
+    <rect x="142" y="55" width="52" height="52" rx="8" fill="none" stroke="#F7DF1E" stroke-width="1.5" opacity="0.8"/>
+    <text x="168" y="80" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#F7DF1E" font-weight="bold">JS</text>
+    <text x="168" y="96" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="6" fill="#F7DF1E" opacity="0.7">JavaScript</text>
+  </g>
+
+  <!-- Bootstrap -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="2.9s" repeatCount="indefinite"/>
+    <rect x="204" y="55" width="52" height="52" rx="8" fill="none" stroke="#563D7C" stroke-width="1.5" opacity="0.8"/>
+    <text x="230" y="80" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#563D7C" font-weight="bold">BS</text>
+    <text x="230" y="96" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="6" fill="#563D7C" opacity="0.7">Bootstrap</text>
+  </g>
+
+  <!-- Angular -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-4;0,0" dur="3.3s" repeatCount="indefinite"/>
+    <rect x="266" y="55" width="52" height="52" rx="8" fill="none" stroke="#E23237" stroke-width="1.5" opacity="0.8"/>
+    <text x="292" y="80" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#E23237" font-weight="bold">A</text>
+    <text x="292" y="96" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="6" fill="#E23237" opacity="0.7">Angular</text>
+  </g>
+
+  <!-- Next.js -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0;-2;0,0" dur="2.6s" repeatCount="indefinite"/>
+    <rect x="328" y="55" width="52" height="52" rx="8" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+    <text x="354" y="80" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#ffffff" font-weight="bold">Nx</text>
+    <text x="354" y="96" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="6" fill="#ffffff" opacity="0.5">Next.js</text>
+  </g>
+
+  <!-- ====== SECTION: BACKEND ====== -->
+  <text x="20" y="115" font-family="'Segoe UI', Arial, sans-serif" font-size="8" fill="#7b2ff7" font-weight="600" opacity="0.8" letter-spacing="2">BACKEND</text>
+
+  <!-- Python -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-5;0,0" dur="3.4s" repeatCount="indefinite"/>
+    <rect x="18" y="122" width="52" height="28" rx="8" fill="none" stroke="#3776AB" stroke-width="1.5" opacity="0.8"/>
+    <text x="44" y="140" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#3776AB" font-weight="bold">Py</text>
+  </g>
+
+  <!-- Java -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0;-3;0,0" dur="2.8s" repeatCount="indefinite"/>
+    <rect x="80" y="122" width="52" height="28" rx="8" fill="none" stroke="#007396" stroke-width="1.5" opacity="0.8"/>
+    <text x="106" y="140" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#007396" font-weight="bold">Java</text>
+  </g>
+
+  <!-- Node.js -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0;-4;0,0" dur="3.0s" repeatCount="indefinite"/>
+    <rect x="142" y="122" width="52" height="28" rx="8" fill="none" stroke="#339933" stroke-width="1.5" opacity="0.8"/>
+    <text x="168" y="140" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#339933" font-weight="bold">Node</text>
+  </g>
+
+  <!-- Flask -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0;-2;0,0" dur="2.5s" repeatCount="indefinite"/>
+    <rect x="204" y="122" width="52" height="28" rx="8" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+    <text x="230" y="140" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#ffffff" font-weight="bold" opacity="0.7">Flask</text>
+  </g>
+
+  <!-- FastAPI -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0;-4;0,0" dur="3.2s" repeatCount="indefinite"/>
+    <rect x="266" y="122" width="52" height="28" rx="8" fill="none" stroke="#009688" stroke-width="1.5" opacity="0.8"/>
+    <text x="292" y="140" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#009688" font-weight="bold">FAST</text>
+  </g>
+
+  <!-- ====== SECTION: DATABASES & TOOLS (right side) ====== -->
+  <text x="430" y="48" font-family="'Segoe UI', Arial, sans-serif" font-size="8" fill="#ff6bcb" font-weight="600" opacity="0.8" letter-spacing="2">DATABASES & TOOLS</text>
+
+  <!-- MongoDB -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0;-4;0,0" dur="3.6s" repeatCount="indefinite"/>
+    <rect x="430" y="55" width="52" height="52" rx="8" fill="none" stroke="#47A248" stroke-width="1.5" opacity="0.8"/>
+    <text x="456" y="80" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#47A248" font-weight="bold">MDB</text>
+    <text x="456" y="96" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="6" fill="#47A248" opacity="0.7">MongoDB</text>
+  </g>
+
+  <!-- SQL -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0;-3;0,0" dur="2.9s" repeatCount="indefinite"/>
+    <rect x="492" y="55" width="52" height="52" rx="8" fill="none" stroke="#336791" stroke-width="1.5" opacity="0.8"/>
+    <text x="518" y="80" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#336791" font-weight="bold">SQL</text>
+    <text x="518" y="96" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="6" fill="#336791" opacity="0.7">PostgreSQL</text>
+  </g>
+
+  <!-- Git -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0;-5;0,0" dur="3.3s" repeatCount="indefinite"/>
+    <rect x="554" y="55" width="52" height="52" rx="8" fill="none" stroke="#F05032" stroke-width="1.5" opacity="0.8"/>
+    <text x="580" y="80" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#F05032" font-weight="bold">G</text>
+    <text x="580" y="96" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="6" fill="#F05032" opacity="0.7">Git</text>
+  </g>
+
+  <!-- VS Code -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0;-2;0,0" dur="2.7s" repeatCount="indefinite"/>
+    <rect x="616" y="55" width="52" height="52" rx="8" fill="none" stroke="#007ACC" stroke-width="1.5" opacity="0.8"/>
+    <text x="642" y="80" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#007ACC" font-weight="bold">VSC</text>
+    <text x="642" y="96" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="6" fill="#007ACC" opacity="0.7">VS Code</text>
+  </g>
+
+  <!-- R -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0;-4;0,0" dur="3.1s" repeatCount="indefinite"/>
+    <rect x="678" y="55" width="52" height="52" rx="8" fill="none" stroke="#276DC3" stroke-width="1.5" opacity="0.8"/>
+    <text x="704" y="80" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#276DC3" font-weight="bold">R</text>
+    <text x="704" y="96" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="6" fill="#276DC3" opacity="0.7">R Lang</text>
+  </g>
+
+  <!-- ML -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0;-3;0,0" dur="2.8s" repeatCount="indefinite"/>
+    <rect x="430" y="122" width="80" height="28" rx="8" fill="none" stroke="#FF6B6B" stroke-width="1.5" opacity="0.8"/>
+    <text x="470" y="140" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#FF6B6B" font-weight="bold">ML & AI</text>
+  </g>
+
+  <!-- Data Analysis -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0;-4;0,0" dur="3.5s" repeatCount="indefinite"/>
+    <rect x="520" y="122" width="80" height="28" rx="8" fill="none" stroke="#4CAF50" stroke-width="1.5" opacity="0.8"/>
+    <text x="560" y="140" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#4CAF50" font-weight="bold">Data Anal</text>
+  </g>
+
+  <!-- Excel -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0;-2;0,0" dur="2.6s" repeatCount="indefinite"/>
+    <rect x="610" y="122" width="60" height="28" rx="8" fill="none" stroke="#217346" stroke-width="1.5" opacity="0.8"/>
+    <text x="640" y="140" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#217346" font-weight="bold">Excel</text>
+  </g>
+
+  <!-- GitHub -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0;-3;0,0" dur="3.0s" repeatCount="indefinite"/>
+    <rect x="680" y="122" width="52" height="28" rx="8" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+    <text x="706" y="140" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="8" fill="#ffffff" font-weight="bold" opacity="0.7">GitHub</text>
+  </g>
+
+  <!-- Decorative separator -->
+  <line x1="405" y1="40" x2="405" y2="145" stroke="#2a2a5e" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+
+</svg>
