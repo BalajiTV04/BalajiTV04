@@ -2,8 +2,6 @@
 
 <img src="assets/animated-name.svg" alt="Balaji TV" width="400" height="80" />
 
-<img src="assets/animated-logo.svg" alt="BTV Logo" width="180" height="180" />
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D2FF&center=true&vCenter=true&width=435&lines=Aspiring+IT+Professional;Full-Stack+Developer;Data+Analytics+Enthusiast;Machine+Learning+Explorer;Master's+in+Computer+Applications)](https://git.io/typing-svg)
 
 [![GitHub followers](https://img.shields.io/github/followers/BalajiTV04?style=social&label=Followers)](https://github.com/BalajiTV04)
