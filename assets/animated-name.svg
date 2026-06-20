@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="600" height="120">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D2FF">
+        <animate attributeName="stop-color" values="#00D2FF;#0088cc;#7b2ff7;#00D2FF" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#0088cc">
+        <animate attributeName="stop-color" values="#0088cc;#7b2ff7;#00D2FF;#0088cc" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#7b2ff7">
+        <animate attributeName="stop-color" values="#7b2ff7;#00D2FF;#0088cc;#7b2ff7" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <text x="300" y="70" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="bold" fill="url(#gradient)" text-anchor="middle" filter="url(#glow)" dominant-baseline="middle">
+    🚀 Balaji TV
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
+  </text>
+</svg>
