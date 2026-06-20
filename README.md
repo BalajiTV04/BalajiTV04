@@ -1,6 +1,27 @@
 <div align="center">
 
-# 🚀 **Balaji TV**
+# 🚀 **<span class="animated-name">Balaji TV</span>**
+
+<style>
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+@keyframes glow-pulse {
+  0%, 100% { filter: drop-shadow(0 0 8px #00D2FF); }
+  50% { filter: drop-shadow(0 0 20px #00D2FF) drop-shadow(0 0 40px #0088cc); }
+}
+.animated-name {
+  background: linear-gradient(270deg, #00D2FF, #0088cc, #7b2ff7, #00D2FF);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-shift 4s ease infinite, glow-pulse 3s ease-in-out infinite;
+  display: inline-block;
+}
+</style>
 
 <img src="assets/animated-logo.svg" alt="BTV Logo" width="180" height="180" />
 
