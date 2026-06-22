@@ -44,11 +44,6 @@
 
 ---
 
-<div align="center">
-
-<img src="assets/tech-showcase.svg" alt="Technology Skills" width="100%" />
-
-</div>
 
 <br>
 
