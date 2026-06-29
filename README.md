@@ -25,8 +25,8 @@
 
 ### 📊 **GitHub Analytics**
 
-| ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BalajiTV04&theme=radical&hide_border=true&layout=compact&langs_count=8) |
-|:---:|:---:|
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BalajiTV04&theme=radical&hide_border=true&layout=compact&langs_count=8) |
+
 
 </div>
 
